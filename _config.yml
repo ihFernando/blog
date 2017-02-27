@@ -1,0 +1,25 @@
+# Site
+title: HopeCode
+email: fe-ca-el@hotmail.com
+name: HopeCode
+description: Aceita tomar um café e conversar sobre desenvolvimento? Então vamos lá!
+meta_description: "Meu primeiro blog onde vou postar coisas que considero importantes."
+theme_name: HopeCode
+
+author: 'Fernando Moreira'
+
+paginate: 15
+
+baseurl: /blog/
+url: "http://ihfernando.github.io/blog"
+
+social:
+    twitter: ihfeeh
+    github:  ihfernando
+    facebook: ihfeeh
+    linkedin:  ihfernando
+
+# Build
+markdown: kramdown
+highlighter: pygments
+gems: [jekyll-paginate]

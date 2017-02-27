@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="home">
+
+      <ul class="post-list">
+            {% for post in site.posts %}
+            <li>
+                  <h2><a class="post-link" href="/blog{{ post.url }}">{{ post.title }}</a></h2>
+                  <p class="">{{ post.excerpt }}</p>
+                  <div class="post-footer">
+                  
+                        {% if site.author %}
+                        <section class="author">
+                              <h4 class="text-muted"> {{ site.author }} | <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span></h4>
+                              <hr>
+                        </section>
+                        {% endif %}
+
+                  </div>
+            </li>
+            {% endfor %}
+      </ul>
+
+      <!-- FEED DE POSTAGENS -->
+      <!-- p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p-->
+
+</div>

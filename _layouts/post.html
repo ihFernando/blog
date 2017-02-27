@@ -1,0 +1,38 @@
+---
+layout: default
+comments: true
+---
+<a class="back-home" href="{{ site.url }}/blog/"><i class="fa fa-angle-left"></i> VOLTAR </a>
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+	<header class="post-header">
+		<h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+		<p class="post-meta">
+			<time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+			{% if page.author %} • 
+			<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+				<span itemprop="name">{{ page.author }}</span>
+			</span>
+			{% endif %}
+		</p>
+    
+	</header>
+
+	<div class="post-content" itemprop="articleBody">
+	    {{ content }}
+	</div>
+	<hr>
+	<section class="author">
+                 	
+            <h3> <i class="fa fa-coffee"></i> {{ site.author }} </h3>
+            <p class="text-muted text-sm descricao-author">
+                   Olá, meu nome é Fernando, atuo como desenvolvedor Front-End e gestão de mídias sociais. Sou <em>apaixonado por conhecimento</em>, amante de <em>café</em> e casado com o <em>Bootstrap</em>. Espero que encontre alguma resposta para a sua dǘvida e se caso não houver dúvida, <strong>vamos apenas tomar um café!</strong> xD
+            </p>
+            <hr>
+      </section>
+
+</article>
+
+<!-- Disqus comments -->
+{% include disqus.html %}
+
