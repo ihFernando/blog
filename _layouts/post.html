@@ -21,13 +21,17 @@ comments: true
 	<div class="post-content" itemprop="articleBody">
 	    {{ content }}
 	</div>
+	<!-- Share nas Redes Sociais -->
+	{% include share.html %}
+
 	<hr>
 	<section class="author">
-                 	
-            <h3> <i class="fa fa-coffee"></i> {{ site.author }} </h3>
+           <img class="img-responsive pull-left" src="/blog/img/profile.jpg" width="140px" />
+            <h3> {{ site.author }} <i class="fa fa-coffee"></i></h3>
             <p class="text-muted text-sm descricao-author">
-                   Olá, meu nome é Fernando, atuo como desenvolvedor Front-End e gestão de mídias sociais. Sou <em>apaixonado por conhecimento</em>, amante de <em>café</em> e casado com o <em>Bootstrap</em>. Espero que encontre alguma resposta para a sua dǘvida e se caso não houver dúvida, <strong>vamos apenas tomar um café!</strong> xD
+                   Olá, meu nome é Fernando, atuo como desenvolvedor Front-End e gestão de mídias sociais. <br> 	Sou <em>apaixonado por conhecimento</em>, amante de <em>café</em> e casado com o <em>Bootstrap</em>. Espero que encontre alguma resposta para a sua dǘvida e se caso não houver dúvida, <strong>vamos apenas tomar um café!</strong> xD
             </p>
+
             <hr>
       </section>
 
