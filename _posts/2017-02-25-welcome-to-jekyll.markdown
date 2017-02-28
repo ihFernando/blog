@@ -5,7 +5,6 @@ date:   2017-02-25 22:05:23 -0300
 excerpt: Olá caro coleguinha que está lendo, este blog foi desenvolvido com uma gem do ruby chamada <strong>Jekyll</strong> em conjunto com o <strong>GitPages</strong>.
 categories: Jekyll
 ---
-# HopeCode: Um blog estático desenvolvido com Jekyll
 
 Olá caro coleguinha que está lendo, este blog foi desenvolvido com uma gem do ruby chamada **Jekyll** em conjunto com o **GitPages**.
 
