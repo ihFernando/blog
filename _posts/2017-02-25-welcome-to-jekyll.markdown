@@ -1,26 +1,62 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2017-02-25 15:58:23 -0300
-excerpt: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, error obcaecati nulla vitae temporibus necessitatibus dolores eligendi non, est magni odio! Soluta vitae atque officiis esse, sequi, voluptas in distinctio!
-categories:
+title:  "HopeCode: Um blog estático desenvolvido com Jekyll"
+date:   2017-02-25 22:05:23 -0300
+excerpt: Olá caro coleguinha que está lendo, este blog foi desenvolvido com uma gem do ruby chamada <strong>Jekyll</strong> juntamento com o <strong>GitPages</strong>.
+categories: Jekyll
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+# HopeCode: Um blog estático desenvolvido com Jekyll
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Olá caro coleguinha que está lendo, este blog foi desenvolvido com uma gem do ruby chamada **Jekyll** juntamento com o **GitPages**.
 
-Jekyll also offers powerful support for code snippets:
+Estou fornecendo o **theme (HopeCode)** que criei com o mesmo, sinta-se totalmente livre para clonar, editar, configurar e usar da forma que preferir. Ele é totalmente open source e muito flexível.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Ao decorrer dos dias vou estar disponibilizando atualizações tanto em relação ao layout quanto sobre o própio **Jekyll** que usei para desenvolver.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Abaixo vou estar explicando como pode ser feita a instalação e configuração de forma rápida e simples. 
+Outro dia estarei montando um post mais elaborado para explorarmos cada pedaço do blog.
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+## Instalação
+
+*(Estou utilizando o Linux Ubuntu)*
+
+
+    git clone https://github.com/ihFernando/blog.git
+    cd blog
+    gem install jekyll
+    gem install pygments.rb
+
+
+## Como usar
+
+Entre na pasta criada e inicie o server local:
+
+	jekyll serve
+
+e também use **Build** para configurar e editar:
+	
+    jekyll build
+    
+    
+## O tema HopeCode
+
+O tema **HopeCode** está em desenvolvimento e por enquanto só disponibiliza algumas funções:
+
+- Paginação;
+- Disqus Comments;
+- RSS (Deve ser habilitado no tema);
+- Social Share (Deve ser habilitado no tema);
+- Perfil do Autor.
+
+<img src="http://i.imgur.com/bIN4DMk.png" />
+<img src="http://i.imgur.com/8s5CUeA.png" />
+
+### Obrigado
+
+Se você chegou até aqui, eu imagino que ficou curioso e gostaria de saber como funciona, ou apenas, está no tédio e quis continuar lendo.
+Obrigado pela visita e explore esse mini mundo interessante que temos aqui, vale a experiência. Até a próxima, mas antes, vamos tomar um café e conversar sobre desenvolvimento? xD
+
+##### Fontes
+* Jekyll - http://jekyllrb.com/
+* Theme Kasper - https://github.com/rosario/kasper
+* Reidark - https://github.com/reidark/reidark.github.io
