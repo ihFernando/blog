@@ -4,7 +4,7 @@ Olá caro coleguinha que está lendo, este blog foi desenvolvido com uma gem do 
 
 Estou fornecendo o **theme (HopeCode)** que criei com o mesmo, sinta-se totalmente livre para clonar, editar, configurar e usar da forma que preferir. Ele é totalmente open source e muito flexível.
 
-Ao decorrer dos dias vou estar disponibilizando atualizações tanto em relação ao layout quanto sobre o própio **Jekyll** que usei para desenvolver.
+Ao decorrer dos dias vou estar disponibilizando atualizações tanto em relação ao layout quanto sobre o próprio **Jekyll** que usei para desenvolver.
 
 Abaixo vou estar explicando como pode ser feita a instalação e configuração de forma rápida e simples. 
 Outro dia estarei montando um post mais elaborado para explorarmos cada pedaço do blog.
