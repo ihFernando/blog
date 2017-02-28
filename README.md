@@ -1,6 +1,6 @@
 # HopeCode: Um blog estático desenvolvido com Jekyll
 
-Olá caro coleguinha que está lendo, este blog foi desenvolvido com uma gem do ruby chamada **Jekyll** juntamento com o **GitPages**.
+Olá caro coleguinha que está lendo, este blog foi desenvolvido com uma gem do ruby chamada **Jekyll** em conjunto com o **GitPages**.
 
 Estou fornecendo o **theme (HopeCode)** que criei com o mesmo, sinta-se totalmente livre para clonar, editar, configurar e usar da forma que preferir. Ele é totalmente open source e muito flexível.
 
