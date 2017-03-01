@@ -6,8 +6,6 @@ excerpt: Olá caro coleguinha que está lendo, hoje estarei disponibilizando tr�
 categories: RedesSociais
 ---
 
-# Compartilhando posts em Redes Sociais
-
 Olá caro coleguinha que está lendo, hoje estarei disponibilizando três códigos bem rápidos para criar um link de compartilhamento do seu post, página ou qualquer outra coisa que preferir em redes sociais como **Twitter**, **Facebook** e **Google Plus**.
 
 Neste tema que criei para o Jekyll (HopeCode), eu adicionei estes mesmos códigos, caso queira utilizar, basta acessar o repositório no meu [**Github**](http://www..com), o arquivo que vou utilizar como exemplo está na pasta **"_includes"** com nome de **"share.html"**
@@ -23,36 +21,33 @@ Dentro dele eu coloquei o código abaixo:
 Para compartilhar no twitter
 
 	
-	<a class="icon-twitter" href="http://twitter.com/share?text={{page.title}}&amp;url={{site.url}}{{ page.url }}"
-	    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"> 
+    <a class="icon-twitter" href="http://twitter.com/share?text={ page.title }&amp;url={ site.url }{ page.url }" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"> 
         <span class="hidden"><i class="fa fa-twitter"></i> Twitter</span>
     </a>
 		
 Para compartilhar no Facebook
 
-    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}"
-        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+    <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u={ site.url }{ page.url }" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
         <span class="hidden"><i class="fa fa-facebook"></i> Facebook</span>
     </a>
 
 Para compartilhar no Google Plus
 
-    <a class="icon-google-plus" href="https://plus.google.com/share?url={{site.url}}{{page.url}}"
-       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+    <a class="icon-google-plus" href="https://plus.google.com/share?url={ site.url }{ page.url }" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
        <span class="hidden"><i class="fa fa-google-plus"></i> Google+</span>
     </a> 
 
 
 
-*O código que está entre {{exemplo}} refere-se ao padrão do Jekyll*
+*O código que está entre { exemplo } refere-se ao padrão do Jekyll, basta adicionar mais um "{" antes do termo e um "}" depois que o código volta ao normal*
 
 Cole e troque os termos pelos do seu site, como por exemplo:
 
-**{{ page.tittle }}** = Título da página;
+**{ page.tittle }** = Título da página;
 
-**{{ site.url }}** = Url do seu site;
+**{ site.url }** = Url do seu site;
 
-**{{ page.url }}** = Url da página (Post)
+**{ page.url }** = Url da página (Post)
 
 #### Vamos analisar a semelhança entre os códigos
 
@@ -62,15 +57,15 @@ O twitter é um pouco diferente pois pede o título  da página antes de pedir o
 
 **Twitter**
 
-    [...] share?text={{page.title}}&amp;url={{site.url}}{{ page.url }}
+    [...] share?text={ page.title }&amp;url={ site.url }{ page.url }
 
 **Facebook**
 
-    [...] sharer/sharer.php?u={{site.url}}{{page.url}}
+    [...] sharer/sharer.php?u={ site.url }{ page.url }
 
 **Google Plus**
    
-    [...] share?url={{site.url}}{{page.url}}
+    [...] share?url={ site.url }{ page.url }
 
 
 ### Conclusão
