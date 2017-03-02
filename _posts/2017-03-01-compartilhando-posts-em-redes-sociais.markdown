@@ -8,7 +8,7 @@ categories: RedesSociais
 
 Olá caro coleguinha que está lendo, hoje estarei disponibilizando três códigos bem rápidos para criar um link de compartilhamento do seu post, página ou qualquer outra coisa que preferir em redes sociais como **Twitter**, **Facebook** e **Google Plus**.
 
-Neste tema que criei para o Jekyll (HopeCode), eu adicionei estes mesmos códigos, caso queira utilizar, basta acessar o repositório no meu [**Github**](http://www..com), o arquivo que vou utilizar como exemplo está na pasta **"_includes"** com nome de **"share.html"**
+Neste tema que criei para o Jekyll (HopeCode), eu adicionei estes mesmos códigos, caso queira utilizar, basta acessar o repositório no meu [**Github**](http://www.github.com/ihfernando), o arquivo que vou utilizar como exemplo está na pasta **"_includes"** com nome de **"share.html"**
 
 Atualmente uma das formas mais fáceis de atingir muitos views e acessos em uma página é compartilhando o conteúdo nas redes sociais, muitos sites/blogs já utilizam essa função, então que tal entender como funciona? Pegue o seu café e vamos começar!
 
