@@ -7,11 +7,11 @@ permalink: os-proximos-posts-e-conteudos
 categories: Matérias
 ---
 
-## Iniciando a série de posts sobre o conteúdo da minha faculdade
+### Iniciando a série de posts sobre o conteúdo da minha faculdade
 
 Olá caro coleguinha que está lendo, essa semana vou estar dando início a série de posts relacionados ao meu curso na faculdade, mas antes, vou explicar um pouco sobre como isso vai funcionar, pegue o seu café e vamos lá!
 
-## Quem sou e o que quero com o blog?
+### Quem sou e o que quero com o blog?
 
 Meu nome é Fernando, tenho 19 anos e atualmente estudo na Faculdade Tecnológica da Baixada Santista – Rubens Lara (Fatec), estou no curso de Sistemas para Internet (3º semestre), curso que, por sinal, é o tema que estará diretamente relacionado ao foco deste blog. A minha intenção aqui é ter a oportunidade de compartilhar um pouco dessa experiência, passar o pouco de conhecimento que tenho e o que vou adquirir com o tempo.
 
@@ -25,7 +25,7 @@ Ao longo desses três primeiros semestres de faculdade eu pude notar o quanto eu
 
 Então aqui estamos no “oficial terceiro post” deste blog que está para se tornar uma fonte de ajuda, tanto para mim, quanto para os atuais universitários e/ou os futuros universitários da Fatec ou qualquer outra instituição que tenha o mesmo desejo que eu: Aprender, crescer, evoluir e tomar café.
 
-## Matérias
+### Matérias
 
 A lista abaixo mostra as matérias que tenho esse semestre, dificilmente estarei fazendo posts sobre as que já passaram, só em caso de pedidos de colegas ou coisa do tipo, aí vai:
 
@@ -34,11 +34,11 @@ A lista abaixo mostra as matérias que tenho esse semestre, dificilmente estarei
 - Servidores e seus Sistemas Operacionais;
 - Banco de Dados e Internet.
 
-## Considerações finais
+### Considerações finais
 
 Sinta-se muito bem-vindo para interagir e perguntar sobre alguma coisa relacionada aos temas apresentados (ou não), estarei aqui para isso, vale ressaltar que eu não sou um expert na área, sou um estudante como muitos por aí em busca de conhecimento e soluções de problemas. Então, se você é do mesmo grupo e adora tomar um café enquanto desenvolve ou quando está na faculdade, continue por aqui e vamos bater um papo sobre desenvolvimento! xD
  
-#### Links úteis
+##### Links úteis
 
 * Github – http://www.github.com/ihfernando;
 * Trabalhos de Design – http://www.behance.net/ihfernando;
