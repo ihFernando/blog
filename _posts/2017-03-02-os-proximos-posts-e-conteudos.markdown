@@ -2,7 +2,7 @@
 layout: post
 title:  "Os próximos posts e conteúdos"
 date:   2017-03-02 21:00:23 -0300
-excerpt: Olá caro coleguinha que está lendo, 
+excerpt: Olá caro coleguinha que está lendo, hoje vou estar explicando um pouco sobre os próximos posts e conteúdo do blog.
 permalink: os-proximos-posts-e-conteudos
 categories: Matérias
 ---
