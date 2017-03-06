@@ -2,7 +2,7 @@
 layout: default
 comments: true
 ---
-<a class="back-home" href="{{ site.url }}"><i class="fa fa-angle-left"></i> VOLTAR </a>
+<a class="back-home" href="{{ site.url }}/blog/"><i class="fa fa-angle-left"></i> VOLTAR </a>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
 	<header class="post-header">
@@ -17,16 +17,17 @@ comments: true
 		</p>
     
 	</header>
-
+	
 	<div class="post-content" itemprop="articleBody">
 	    {{ content }}
 	</div>
+
 	<!-- Share nas Redes Sociais -->
 	{% include share.html %}
 
 	<hr>
 	<section class="author">
-           <img class="img-responsive pull-left" src="/blog/img/profile.jpg" width="140px" />
+           <img class="img-responsive pull-left" src="/blog/assets/img/profile.jpg" width="140px" />
             <h3> {{ site.author }} <i class="fa fa-coffee"></i></h3>
             <p class="text-muted text-sm descricao-author">
                    Olá, meu nome é Fernando, atuo como desenvolvedor Front-End e gestão de mídias sociais. <br> 	Sou <em>apaixonado por conhecimento</em>, amante de <em>café</em> e casado com o <em>Bootstrap</em>. Espero que encontre alguma resposta para a sua dǘvida e se caso não houver dúvida, <strong>vamos apenas tomar um café!</strong> xD
@@ -36,6 +37,29 @@ comments: true
       </section>
 
 </article>
+
+<section>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-6">
+				{% if page.previous %}
+				<a href="/blog{{ page.previous.url }}" rel="prev">
+					<button class="btn btn-default btn-lg btn-block" style="padding: 20px"> &larr; {{ page.previous.title }} </button>
+				</a>
+				{% endif %}
+			</div>
+
+			<div class="col-md-6">
+
+				{% if page.next %}
+				<a href="/blog{{ page.next.url }}" rel="next">
+					<button class="btn btn-success btn-lg btn-block" style="padding: 20px"> {{ page.next.title }} &rarr; </button>
+				</a>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</section>
 
 <!-- Disqus comments -->
 {% include disqus.html %}
