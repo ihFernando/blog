@@ -68,6 +68,8 @@ O Emmet é um plugin muito bom, que agiliza demais o desenvolvimento. Poucas pes
 
 Links úteis:
 
-*[Emmet](http://emmet.io/);
-*[Sublime Text 3](https://www.sublimetext.com/3);
-*[Repositório com o exemplo](https://github.com/ihFernando/Snippet-Init-Project).
+* [Emmet](http://emmet.io/);
+
+* [Sublime Text 3](https://www.sublimetext.com/3);
+
+* [Repositório com o exemplo](https://github.com/ihFernando/Snippet-Init-Project).
