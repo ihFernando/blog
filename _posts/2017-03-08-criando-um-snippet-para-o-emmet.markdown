@@ -50,7 +50,8 @@ Após clicar nele, uma nova janela será aberta, por padrão, ela vem vazia. é 
                     "bts-cdn": "link[href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' type='text/css' rel='stylesheet']+script[src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js']",
 
                      }
-             },
+		}
+          },
     }
 
 O código acima está chamando o CDN do Bootstrap minificado na versão 3.3.7 hospedado no site MaxCDN, assim como o script. Note que é um código simples e fácil de ser alterado. Se criarmos um arquivo HTML e digitarmos "bts-cdn" ele trará como resultado:
