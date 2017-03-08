@@ -15,7 +15,17 @@ comments: true
 			</span>
 			{% endif %}
 		</p>
-    
+    		<!-- Tempo de leitura do post -->
+    		<p class="text-muted">
+    			<small>
+    				{% assign words = content | number_of_words %}
+					{% if words < 360 %}
+				  	Tempo de leitura: 1 min
+					{% else %}
+				  	Tempo de leitura: {{ words | divided_by:180 }} mins
+				{% endif %}
+			</small>
+		</p>
 	</header>
 	
 	<div class="post-content" itemprop="articleBody">
