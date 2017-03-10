@@ -570,6 +570,11 @@ footer .container-fluid {
     padding-bottom: 10px;
 }
 
+footer .back-to-top:hover {
+    cursor: pointer;    
+}
+
+
 
 /* REDES SOCIAIS */
 
