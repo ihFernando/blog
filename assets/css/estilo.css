@@ -383,8 +383,8 @@ hr {
 
 .header h1 a {
     font-family: 'Raleway', sans-serif;
-            font-weight: 900;
-            top: 8%;
+    font-weight: 900;
+    top: 8%;
     letter-spacing: 5px;
     color: #fff !important;
 }
@@ -395,7 +395,7 @@ hr {
 
 .header h1 a:hover, .header h1 a:visited, .header h1 a:active {
     color: #333;
-    text-decoration: line-through;
+    text-decoration: underline;
 }
 
 .header  h2 {
