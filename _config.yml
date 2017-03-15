@@ -23,3 +23,6 @@ social:
 markdown: kramdown
 highlighter: pygments
 gems: [jekyll-paginate]
+
+# Google services
+google_analytics: UA-93790137-1
