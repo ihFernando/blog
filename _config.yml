@@ -13,11 +13,11 @@ paginate: 15
 baseurl: /blog/
 url: "http://ihfernando.github.io/blog"
 
-social:
-    twitter: ihfeeh
-    github:  ihfernando
-    facebook: ihfeeh
-    linkedin:  ihfernando
+# Social Media
+twitter_username:  ihfernando
+github_username:   ihfernando
+linkedin_username: ihfeeh
+behance_username:  ihfernando
 
 # Build
 markdown: kramdown
