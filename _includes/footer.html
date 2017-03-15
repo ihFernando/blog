@@ -5,16 +5,27 @@
               <div class="text-center">
                     
                    <div style="margin: 0 auto">
-                          <a href="https://www.github.com/ihfernando" target="_blank"><i class="fa fa-github"></i></a>
-                          <a href="https://www.behance.net/ihfernando" target="_blank"><i class="fa fa-behance"></i></a>
-                          <a href="https://www.twitter.com/ihfernando" target="_blank"><i class="fa fa-twitter"></i></a>
-                          <a href="https://www.linkedin.com/in/ihfeeh/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                     {% if site.github_username %}
+                          <a href="https://www.github.com/{{ site.github_username }}" target="_blank"><i class="fa fa-github"></i></a>
+                     {% endif %}
+                     
+                     {% if site.behance_username %}
+                           <a href="https://www.behance.net/{{ site.behance_username }}" target="_blank"><i class="fa fa-behance"></i></a>
+                     {% endif %}
+
+                     {% if site.twitter_username %}
+                          <a href="https://www.twitter.com/{{ site.twitter_username }}" target="_blank"><i class="fa fa-twitter"></i></a>
+                     {% endif %}
+
+                     {% if site.linkedin_username %}
+                          <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                      {% endif %}
                     </div>
                     <br>
                     <div class="row">
                           <div class="col-md-5">
                                 <p class="text-muted text-md-right text-sm-center">
-                                      Blog desenvolvido e mantido por <a href="https://www.github.com/ihfernando"> <br> Fernando Moreira </a>
+                                      Blog desenvolvido e mantido por <a href="https://www.github.com/{{ site.github_username }}"> <br> Fernando Moreira </a>
                                 </p>
                           </div>
                           <div class="col-md-2">
