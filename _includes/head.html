@@ -51,11 +51,24 @@
 	<meta property="og:image" content="" />
 
 	<!-- TWITTER -->
-	<meta name="twitter:card" content="summary"/>
-	<meta name="twitter:site" content="@ihfernando"/>
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@ihfernando">
+	<meta name="twitter:creator" content="@ihfernando">
 	<meta name="twitter:domain" content="Fernando Moreira"/>
-	<meta name="twitter:creator" content="@ihfernando"/>
-
+	{% if page.title %}
+	  <meta name="twitter:title" content="{{ page.title }}">
+	{% else %}
+	  <meta name="twitter:title" content="{{ site.title }}">
+	{% endif %}
+	{% if page.url %}
+	  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+	{% endif %}
+	{% if page.description %}
+	  <meta name="twitter:description" content="{{ page.description }}">
+	{% else %}
+	  <meta name="twitter:description" content="{{ site.description }}">
+	{% endif %}	
+	
 	<!-- JS-->
 	<script src="/blog/assets/js/modernizr.js"></script>
       	<script src="/blog/assets/js/scripts.js"></script>
