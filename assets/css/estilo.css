@@ -550,7 +550,11 @@ footer {
 
 footer p {
     font-size: 15px;
-    color: #828282;
+    color: #fff;
+}
+
+footer p > a {
+    color: #ccc;
 }
 
 footer i {
@@ -568,6 +572,10 @@ footer .container-fluid {
     background: #333;
     padding-top: 40px;
     padding-bottom: 10px;
+}
+
+footer .back-to-top {
+    color: #ccc;    
 }
 
 footer .back-to-top:hover {
