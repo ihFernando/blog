@@ -1,8 +1,8 @@
 ---
 layout: post
-title: “Sass? O que é isso? - Parte 2”
+title: Sass? O que é isso? - Parte 2
 date: 2017-03-18 16:00:23 -0300
-Excerpt: Olá, caro coleguinha que está lendo, hoje falar sobre como instalar o Sass no Windows e dar continuidade aos tópicos, com uma exploração maior, iniciados no post passado. Você pode acessá-lo clicando aqui > [ Sass? O que é isso? ] (https://ihfernando.github.io/blog/sass-o-que-e-isso)
+excerpt: Olá, caro coleguinha que está lendo, hoje falar sobre como instalar o Sass no Windows e dar continuidade aos tópicos, com uma exploração maior, iniciados no post passado. Você pode acessá-lo clicando aqui > [ Sass? O que é isso? ] (https://ihfernando.github.io/blog/sass-o-que-e-isso)
 categories: Front-End
 permalink: sass-o-que-e-isso-parte-2
 ---
@@ -86,17 +86,18 @@ Você também pode fazer variações com **Box-shadow**, como por exemplo:
     
 E adicionar esse Mixin na classe desta forma, em que o **10px** refere-se ao valor que será aplicado à variável **$radius**:
   
-  .box-full {
-    @include border-radius(10px);
-  }
+    .box-full {
+       @include border-radius(10px);
+    }
 
 O resultado fica:
-  .box-full {
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    border-radius: 10px; }
+
+    .box-full {
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      border-radius: 10px; }
 
 Você pode optar por criar folhas de estilos separadas para cada situação, pode criar uma apenas para os mixins e variáveis, e outra para importar essa folha e adicionar os valores ao código. Além de manter mais organizado, você consegue ter um controle maior do que está fazendo e onde cada item está, sem ter que ficar caçando pelo código todo.
 
@@ -108,11 +109,11 @@ Para importar uma folha de estilo no Sass, adicionamos ao topo do arquivo o segu
 
 Note que o Sass tem muitas funcionalidades interessantes para auxiliar o desenvolvedor, eu sou totalmente a favor de utilizá-lo em um projeto, entretanto, é importante saber o tamanho do que está sendo desenvolvendo e se ele não acabará trazendo mais complicações do que facilidade.
 
-Arquivo usado no post: [ArquivoSass]( http://codepen.io/ihFernando/pen/KWZwEK)
+Você pode visualizar o código utilizado no post clicando aqui >> [ArquivoSass]( http://codepen.io/ihFernando/pen/KWZwEK) <<
 
 Até a próxima!
 
-## Links úteis
+### Links úteis
 
 * Ruby - https://www.ruby-lang.org/pt/
 * Sass - http://sass-lang.com/
