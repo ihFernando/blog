@@ -511,8 +511,10 @@ nav:hover div {
 /* POST E AUTOR */
 .page-content > .wrapper {
     max-width: calc(1000px - (30px * 2));
-    text-align: justify;
-  
+}
+
+.post-content{
+   text-align: justify;
 }
 
 .post-link {
