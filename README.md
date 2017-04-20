@@ -41,8 +41,6 @@ O tema **HopeCode** está em desenvolvimento e por enquanto só disponibiliza al
 - Social Share (Deve ser habilitado no tema);
 - Perfil do Autor.
 
-<img src="http://i.imgur.com/bIN4DMk.png" />
-<img src="http://i.imgur.com/8s5CUeA.png" />
 
 ### Obrigado
 
