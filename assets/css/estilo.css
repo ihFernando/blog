@@ -11,6 +11,8 @@ Site: www.github.com/ihfernando;
    0. Normalize.css v2.1.3 | MIT License | git.io/normalize | (minified)
    ========================================================================== */
 
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
 article, aside, details,
 figcaption, figure,
 footer, header, hgroup,
@@ -351,7 +353,7 @@ a {
 }
 
 p, span {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Muli', sans-serif;
 }
 
 hr {
@@ -400,8 +402,9 @@ hr {
 
 .header  h2 {
     color: #fff;
-            font-weight: stronger;
-    font-size: 2rem
+    font-family: 'Muli', sans-serif;
+    font-weight: lighter;
+    font-size: 2rem;
 }
 
 .header i {
@@ -421,6 +424,14 @@ hr {
     -ms-transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     transform: translateY(-10px);
+}
+
+header .wrapper {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: absolute;
 }
 
 /* NAV */
@@ -510,7 +521,7 @@ nav:hover div {
 
 /* POST E AUTOR */
 .page-content > .wrapper {
-    max-width: calc(1000px - (30px * 2));
+    max-width: calc(1000px - (115px * 2));
 }
 
 .post-content{
